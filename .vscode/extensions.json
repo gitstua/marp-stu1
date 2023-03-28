@@ -4,6 +4,8 @@
 
 	// List of extensions which should be recommended for users of this workspace.
 	"recommendations": [
+		"marp-team.marp-vscode",
+		"hediet.vscode-drawio"
 		
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.

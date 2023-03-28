@@ -2,15 +2,15 @@
 marp: true
 theme: default
 class: invert
-paginate: true
+# paginate: true
 
 footer: "17 Feb 2023"
 html: true
 allowlocalfiles: true
 
-backgroundImage: url(./octocat.png);
-backgroundPosition: bottom 20px right 60px;
-backgroundSize: 40px;
+backgroundImage: url(./octocat-transparent-small.png);
+backgroundPosition: bottom -30px right -30px;
+backgroundSize: 100px;
 
 # A hubber image alt text must contain the text hubber to get the style which makes it a circle from the avatar
 
@@ -22,6 +22,7 @@ style: |
     height: 20px;
     font-family: 'Arial';
     width:90%;
+    font-family: 'Roboto Mono';
   } 
 
   img[alt~="hubber"] {
