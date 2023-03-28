@@ -9,8 +9,8 @@ html: true
 allowlocalfiles: true
 
 backgroundImage: url(./octocat-transparent-small.png);
-backgroundPosition: bottom -30px right -30px;
-backgroundSize: 100px;
+backgroundPosition: bottom -50px right -50px;
+backgroundSize: 150px;
 
 # A hubber image alt text must contain the text hubber to get the style which makes it a circle from the avatar
 
