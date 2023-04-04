@@ -8,9 +8,9 @@ footer: "17 Feb 2023"
 html: true
 allowlocalfiles: true
 
-backgroundImage: url(./octocat-transparent-small.png);
-backgroundPosition: bottom -50px right -50px;
-backgroundSize: 150px;
+backgroundImage: url(./assets/github-mark-white.svg);
+backgroundPosition: bottom 15px right 15px;
+backgroundSize: 40px;
 
 # A hubber image alt text must contain the text hubber to get the style which makes it a circle from the avatar
 
@@ -58,3 +58,5 @@ Introducing the latest and greatest Octocat!
 </div>
 
 ---
+
+Thankyou!
