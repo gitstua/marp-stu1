@@ -58,5 +58,10 @@ Introducing the latest and greatest Octocat!
 </div>
 
 ---
+# test slide
+* Item 1
+* Item 2
+* Item 3
+---
 
 Thankyou!
