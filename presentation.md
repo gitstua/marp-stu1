@@ -35,6 +35,39 @@ style: |
     align-items: center;
   }
 
+  div.special li {
+    margin: 0;
+    padding: 36px 0 36px 84px;
+    list-style: none;
+    background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px;
+
+  }
+
+  div.special li:nth-child(2){
+    background-image: url("assets/graph-circle.png");
+    
+    img {
+      color: red;
+      border-radius: 50%;
+      border: 5px solid red;
+    }
+  }
+
+
+---
+
+## Example of fancy list with circular icons
+![bg left](https://octodex.github.com/images/deckfailcat.png)
+<div class='special'>
+
+- aaa
+- bbb
+
+</div>
+
 ---
 
 # Contoso
