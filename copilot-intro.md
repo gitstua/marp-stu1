@@ -17,6 +17,7 @@ backgroundSize: 40px;
 style: |
   section {
     font-family: 'Hubot Sans';
+    color: #fff;
   }
   footer {
     height: 20px;
@@ -36,6 +37,15 @@ style: |
     align-items: center;
   }
   
+  li {
+    margin: 0;
+    padding: 20px 0 20px 84px;
+    list-style: none;
+    background-image: url("./assets/circle2.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px;
+  }
 ---
 
 # Introduction to GitHub Copilot
@@ -87,6 +97,7 @@ AI synthesizes code from your code
 ---
 
 ## How GitHub Copilot works
+![bg left:30% 90%](https://octodex.github.com/images/total-eclipse-of-the-octocat.jpg)
 
 - Uses OpenAI Codex model
 - Analyzes context and patterns in codebase
