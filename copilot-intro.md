@@ -4,7 +4,7 @@ theme: default
 class: invert
 # paginate: true
 
-footer: "17 Feb 2023"
+footer: "April 2023"
 html: true
 allowlocalfiles: true
 
