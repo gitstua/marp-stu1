@@ -6,3 +6,6 @@
 3. Ensure you [Enable HTML in MarkDown](https://github.com/marp-team/marp-vscode/blob/main/README.md#enable-html-in-marp-markdown-%EF%B8%8F) for the Marp extension. This is enabled for this workspace.
 
 ![](/assets/github-mark-white.svg)
+
+## assets
+Consider adding octicons from https://github.com/primer/octicons

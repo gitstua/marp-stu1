@@ -29,7 +29,7 @@ style: |
   img[alt~="hubber"] {
     border-radius: 50%;
     margin-right: 20px;
-    border: 3px solid #6e40c9;
+    border: 1.5px solid #6e40c9;
   }
 
   .center-hubber > p {
@@ -46,6 +46,7 @@ style: |
     background-position: left center;
     background-size: 50px;
   }
+
 ---
 
 # Introduction to GitHub Copilot
