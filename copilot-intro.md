@@ -4,7 +4,7 @@ theme: default
 class: invert
 # paginate: true
 
-footer: "April 2023"
+footer: "May 2023"
 html: true
 allowlocalfiles: true
 
@@ -59,15 +59,6 @@ Copilot overview
 
 ![hubber gitstua](https://avatars.githubusercontent.com/gitstua?size=60) <span>@gitstua</span>
 </div>
-
----
-# Focus is learning about GitHub Copilot functionality
-
-## We won't cover any of the following:
-- GitHub Copilot pricing
-- Any legal considerations
-
-For these topics I will refer you to the Copolit FAQ avalable at [gh.io/copilotfaq](https://gh.io/copilotfaq)
 
 ---
 
@@ -131,7 +122,8 @@ We are constantly evaluating and improving Copilot including our vision of where
 -->
 
 ---
-## Demo 1 - C#
+## Demo 1 
+### C#
 <!-- ```
 dotnet new console -o copilot
 ``` 
@@ -153,20 +145,25 @@ dotnet new console -o copilot
 -->
 
 ---
-## Demo 2 Terraform
+## Demo 2 
+### Terraform
 <!-- 
 - get a quickstart from the web
 - add some new stuff
 
  -->
 ---
-## Demo 3 Python
+## Demo 3 
+### Python
+<!-- 
 - download an image from the web and save it to disk
-- create a tumbnail
+- create a tumbnail 
+-->
 
 
 ---
-## Demo 4 Markdown
+## Demo 4 
+### Markdown
 <!-- markdown presentation teaching the basics of azure -->
 
 ---
@@ -178,9 +175,42 @@ dotnet new console -o copilot
 - More than just code suggestions, but a full development assistant
 
 ---
+## Demo GitHub Copilot X
+
+This is the intent on where we are going in the next versions. We are figuring out how this will work and how to make it work for you. 
+
+<!-- 
+OPEN THE GITHUB COPILOT X Chat GPT Panel
+
+1. create a java calass
+2. highlight some code and explain
+3. ask it to summarize with fewer words
+4. create some unit tests
+5. /debug
+
+
+PR
+DOCS
+Voice
+CLI
+
+https://github.com/features/preview/copilot-x
+
+ -->
+---
 
 ## Conclusion
 
-- GitHub Copilot can save significant time and effort for developers
-- It has some limitations that need to be considered
-- As machine learning models improve, Copilot's usefulness will only increase
+- GitHub Copilot is your AI-paired programming assistant
+- Designed specifically to help synthesise code 
+- GitHub Copilot for Business has enterprise controls
+
+---
+# Focus today was learning about GitHub Copilot functionality
+
+## We didn't cover any of the following:
+- GitHub Copilot pricing
+- Any legal considerations
+
+For these topics I will refer you to the Copolit FAQ avalable at [gh.io/copilotfaq](https://gh.io/copilotfaq)
+
