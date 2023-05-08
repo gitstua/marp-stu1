@@ -60,6 +60,16 @@ Copilot overview
 ![hubber gitstua](https://avatars.githubusercontent.com/gitstua?size=60) <span>@gitstua</span>
 </div>
 
+<!-- 
+PREP
+1. vscode - remove copilot
+2. vs code insiders - install copilot
+3. ensure python3 is installed
+4. ensure dotnet is installed
+5. ensure terraform plugin is installed
+
+ -->
+
 ---
 
 ## Basic
@@ -98,7 +108,7 @@ AI synthesizes code from your code
 ---
 
 ## Benefits of using GitHub Copilot
-
+![bg right:50% 90%](https://github.blog/wp-content/uploads/2023/02/GitHub-Copilot-for-Business.png?resize=2400%2C1260)
 - Faster coding
 - Improved accuracy
 - Learning tool
@@ -120,6 +130,12 @@ We are constantly evaluating and improving Copilot including our vision of where
 - Your code quality tooling
 - Functional tests
 -->
+
+---
+## Copilot for Business
+- Enterprise controls such as enforcing blocking suggestions matching public code		
+- Proxy support
+- Allocate licences to users
 
 ---
 ## Demo 1 
@@ -158,18 +174,25 @@ dotnet new console -o copilot
 <!-- 
 - download an image from the web and save it to disk
 - create a tumbnail 
+- save the image as black and white
+- save the image as sepia
+
 -->
 
 
 ---
 ## Demo 4 
 ### Markdown
-<!-- markdown presentation teaching the basics of azure -->
+<!-- markdown presentation teaching the basics of azure 
+
+presentation about dogs
+
+-->
 
 ---
 ## Future of GitHub Copilot
 
-- Expanding language support
+- More tuned language support
 - Improving performance
 - Becoming an essential tool for developers
 - More than just code suggestions, but a full development assistant
@@ -182,15 +205,15 @@ This is the intent on where we are going in the next versions. We are figuring o
 <!-- 
 OPEN THE GITHUB COPILOT X Chat GPT Panel
 
-1. create a java calass
-2. highlight some code and explain
-3. ask it to summarize with fewer words
-4. create some unit tests
-5. /debug
-
+1. create a terraform file
+2. create a python file
+3. highlight some code and explain
+4. ask it to summarize with fewer words
+5. create some unit tests
+6. /debug
 
 PR
-DOCS
+DOCS - https://copilot4docs.githubnext.com/
 Voice
 CLI
 
