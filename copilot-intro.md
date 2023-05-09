@@ -138,8 +138,12 @@ We are constantly evaluating and improving Copilot including our vision of where
 - Allocate licences to users
 
 ---
-## Demo 1 
+## GitHub Copilot Demo 1 
 ### C#
+
+![bg right 90%](./assets/csharp.svg)
+
+
 <!-- ```
 dotnet new console -o copilot
 ``` 
@@ -153,7 +157,7 @@ dotnet new console -o copilot
 //make a list of zoo animals
 //print 2 random animals from the list
 //get a list of the azure ip addresses for azure 
-//get a list of australin states short codes 
+//get a list of australian states short codes 
 //print a random australian state
 //print type of credit card based on number
 //validate email address
@@ -161,16 +165,28 @@ dotnet new console -o copilot
 -->
 
 ---
-## Demo 2 
+
+
+## GitHub Copilot Demo 2 
 ### Terraform
+<!-- 
+_backgroundColor: lightgray
+_color: black;
+ -->
+![bg right:65% 100%](./assets/terraform.svg)
 <!-- 
 - get a quickstart from the web
 - add some new stuff
 
  -->
 ---
-## Demo 3 
+## GitHub Copilot Demo 3 
 ### Python
+<!-- 
+_backgroundColor: white
+_color: black;
+ -->
+![bg left 90%](./assets/python-logo.png)
 <!-- 
 - download an image from the web and save it to disk
 - create a tumbnail 
@@ -181,8 +197,14 @@ dotnet new console -o copilot
 
 
 ---
-## Demo 4 
+## GitHub Copilot Demo 4 
 ### Markdown
+<!-- 
+_backgroundColor: white
+_color: black
+ -->
+![bg right 90%](./assets/markdown.svg)
+
 <!-- markdown presentation teaching the basics of azure 
 
 presentation about dogs
@@ -198,7 +220,7 @@ presentation about dogs
 - More than just code suggestions, but a full development assistant
 
 ---
-## Demo GitHub Copilot X
+## GitHub Copilot Demo GitHub Copilot X
 
 This is the intent on where we are going in the next versions. We are figuring out how this will work and how to make it work for you. 
 
@@ -206,7 +228,7 @@ This is the intent on where we are going in the next versions. We are figuring o
 OPEN THE GITHUB COPILOT X Chat GPT Panel
 
 1. create a terraform file
-2. create a python file
+2. create a threejs example, create a house
 3. highlight some code and explain
 4. ask it to summarize with fewer words
 5. create some unit tests
@@ -225,7 +247,7 @@ https://github.com/features/preview/copilot-x
 ## Conclusion
 
 - GitHub Copilot is your AI-paired programming assistant
-- Designed specifically to help synthesise code 
+- Designed specifically to help synthesise code
 - GitHub Copilot for Business has enterprise controls
 
 ---
