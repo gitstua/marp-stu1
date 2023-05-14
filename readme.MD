@@ -12,4 +12,4 @@ Consider adding octicons from https://github.com/primer/octicons
 
 ## Export to PDF or PowerPoint PPTX
 You can export the Marp File to PowerPoint or a PDF file as required
-<img width="646" alt="image" src="https://github.com/gitstua/marp-stu1/assets/25424433/67adaa7d-87a9-4307-8c59-c0fe9826eb01">
+<img width="559" alt="image" src="https://github.com/gitstua/marp-stu1/assets/25424433/88e76a9a-fb95-4fb7-8f45-706caf525087">
