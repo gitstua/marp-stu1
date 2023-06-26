@@ -49,6 +49,40 @@ style: |
 
 ---
 
+# DRAFT - not for use
+
+---
+
+# updated AGENDA - GitHub 101
+- Why are we adopting a version control system?
+- What is GitHub?
+- Using the GitHub website
+- Protecting secrets
+- Making changes to your code
+- Suggesting and merging changes
+- Working with other tools and GitHub
+
+
+
+<!-- 
+- 5m - Why do we need source control?
+- what is a distributed Version Control system
+- 4m what is GitHub - video
+- concepts around user vs organisation repos
+- 5m overview of the UI for code (NOT FOR DATA)
+- 10m demo of the UI
+- 2m demo that secret scanning will block secrets (push protection)
+- 3m demo fork to userspace
+- 3m demonstration of editing a file in browser (quick)
+- 5m demo of PR
+- 5m demo of Desktop to clone a repo
+- you can edit a file using whatever you like - terradata studio, vs code, any text editor
+- others can use SSH, command line VS Code if they like
+
+-->
+
+---
+
 # Introduction to GitHub
 
 ![bg right](https://octodex.github.com/images/total-eclipse-of-the-octocat.jpg)
@@ -66,34 +100,104 @@ PREP
  -->
 
 ---
+## Agenda
 
-## What is GitHub
-- Plan your work with **issues** and **projects**
+AGENDA - GitHub 101
+1. Setara - Why do we need source control?
+2. A lap around GitHub
+3. How can I use GitHub?
+4. Using git to commit code to repositories
+5. Working as a team: Pull Requests and merging
+
+<!--
+
+3. How can I use GitHub?
+ - GitHub Website
+ code review etc
+
+ - GitHub Desktop <<<
+your copy of 
+
+ - Command Line
+advanced users 
+
+-->
+
+---
+
+
+## How can I use GitHub?
+ - GitHub Website
+ - GitHub Desktop <<<
+ - Command Line
+
+---
+
+## GitHub at CBA
+<!-- - Plan your work with **issues** and **projects**  -->
 - Securely store your code in **repositories**
 - Collaborate with others using **pull requests**
-- Build and deploy your code using **Actions**
-- Advanced Security
+<!-- - Build and deploy your code using **Actions** -->
+- Advanced Security - protect from adding passwords
+---
+
+# Levels of GitHub
+<!-- - Enterprise -->
+- Organization
+- Repository
+
+
+---
+
+![Alt text](image-6.png)
+
 ---
 
 ## A lap around GitHub
 
+---
 
+![User Account bg 80% ](image-2.png)
 
+---
+![Organization bg 80%](image-4.png)
+
+---
+![Repo bg 80%](image-5.png)
+
+---
+
+![bg 85%](image-7.png)
 ---
 
 ## Demo 1
 
----
 
-## What is GitHub Copilot?
-
-- AI-powered paired programming assistant
-- Developed by GitHub and OpenAI
-- Uses machine learning models to suggest code snippets
 
 ---
 
-## How GitHub Copilot works
+Pull request (including Draft PR)
+
+Reviewing a PR
+
+
+<!--
+Innersource module will cover CODEOWNERS
+-->
+
+
+
+
+
+---
+
+## What is zzz?
+
+- example
+
+---
+
+## How zzz works
 ![bg left:30% 90%](https://octodex.github.com/images/total-eclipse-of-the-octocat.jpg)
 
 - Uses OpenAI Codex model
@@ -102,7 +206,7 @@ PREP
 
 ---
 
-## Benefits of using GitHub Copilot
+## Benefits of using aaa
 ![bg right:50% 90%](https://github.blog/wp-content/uploads/2023/02/GitHub-Copilot-for-Business.png?resize=2400%2C1260)
 - Faster coding
 - Improved accuracy
