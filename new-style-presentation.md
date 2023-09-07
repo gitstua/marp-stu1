@@ -1,0 +1,230 @@
+---
+marp: true
+theme: default
+class: invert
+# paginate: true
+
+footer: "@gitstua - September 2023"
+html: true
+allowlocalfiles: true
+
+backgroundImage: url(./assets/github-mark-white.svg);
+backgroundPosition: bottom 15px right 15px;
+backgroundSize: 40px;
+
+# A hubber image alt text must contain the text hubber to get the style which makes it a circle from the avatar
+
+
+
+style: |
+  font-family: 'Hubot Sans';
+  section {
+    font-family: 'Hubot Sans';
+    color: #fff;
+    src : url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+  }
+  footer {
+    height: 20px;
+    font-family: 'Arial';
+    width:90%;
+    font-family: 'Roboto Mono';
+
+    border-top: 1px linear-gradient(to right, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%);;
+  } 
+  
+  img[alt~="hubber"] {
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 1.5px solid #6e40c9;
+  }
+
+  .center-hubber > p {
+    display: flex;
+    align-items: center;
+  }
+  
+  .center-hubber > p {
+    margin-top: 30px;
+  }
+
+  .agenda{
+    display: grid;
+    grid-template-columns:  auto minmax(0, 1fr);
+    gap: 1rem;
+  }
+  .agenda li {
+    font-size: 0.9em;
+    margin: 0;
+    padding: 15px 0 10px 84px;
+    list-style: none;
+  }
+
+  li {
+    margin: 0;
+    padding: 20px 0 20px 84px;
+    list-style: none;
+    /* background-image: url("./assets/circle2.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 50px; */
+  }
+
+  .gradient-pink-to-green {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%);
+    border-radius: .8em;
+  }
+
+  .gradient-pink-to-green-short {
+    margin-top: 3px;
+    width: 45%;
+    height: 0.5px;
+    background: linear-gradient(to right, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%);
+    opacity: 0.5;
+  }
+
+  h1, h2 {
+   border-bottom: 3px solid pink;
+   border-image: linear-gradient(to right, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%) 10;
+  }
+
+  .columns {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+  }
+
+  .agenda h1, .columns h1 {
+    border: none;
+  }
+
+  .agenda h1{
+    padding: 15px;
+    border: 2px solid white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+    /* make corners rounded */
+    border-radius: 10px;
+    font-size: 1em;
+    margin-top: 140px;
+  }
+
+  .agenda > div:first-child {
+    border-right: 3px solid pink;
+    border-image: linear-gradient(to bottom, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%) 10;
+    padding-right: 4rem;
+  }
+  .agenda > div:first-child, .columns > div:first-child {
+    border-right: 3px solid pink;
+    border-image: linear-gradient(to bottom, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%) 10;
+  }
+---
+
+# Actions Runner Controller Demo
+
+![bg right](https://octodex.github.com/images/total-eclipse-of-the-octocat.jpg)
+
+<div class="center-hubber">
+
+![hubber gitstua](https://avatars.githubusercontent.com/gitstua?size=60) <span>@gitstua</span>
+</div>
+
+<!-- 
+PREP
+1. Create a new codespace for https://github.com/gitstua-labs/ARCv2Demo/blob/main/README.md
+2. Ensure that there is a PAT TOKEN stored as a secret APP_PRIVATE_KEY available to the codespace
+
+ -->
+
+---
+
+<!-- hide footer in marp -->
+<!-- This next line removes the footer to fit the content we are using -->
+<!-- 
+_footer: ""
+-->
+
+
+<div class='agenda'>
+
+  <div>
+
+  # AGENDA
+  </div>
+
+  <div>
+
+- What is ARC?
+- ARC as part of Actions in the demo of the long text line running over
+- Demo - deploying ARC
+- Runner groups
+
+  </div>
+
+---
+
+<div class='columns'>
+
+  <div>
+
+  # What is ARC?
+  </div>
+
+  <div>
+
+  - the dog and the cat
+  - b 
+  - c
+  - actions ghas runners repos and options
+  - actions runner controller
+
+  </div>
+
+</div>
+
+---
+
+# ARC as part of Actions
+<!-- <div class="gradient-pink-to-green-"></div>
+<div class="gradient-pink-to-green-short"></div> -->
+
+- a
+- b
+- c
+
+---
+
+# Demo - deploying ARC
+<!-- 
+- Open codespace
+- show scaleset controller deployment
+- show scaleset
+ -->
+
+
+---
+
+# Runner groups
+
+---
+
+## Recap - Actions runners can be:
+
+- Standard GitHub runners
+- Larger GitHub hosted runners
+- Running on a VM
+- Running in Docker
+- Running in Kubernetes
+
+---
+
+## Recap 2 - Actions Runner Controller
+- A community project adopted under GitHub.com/actions/
+- Elastic - a way to have runners which are created when jobs need them
+- Run on your own hardware or in a cloud provider
+
+
+## Resources
+Some helpful resources are located at [gh.io/ARC-Resources](https://gh.io/ARC-Resources)
