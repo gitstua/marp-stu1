@@ -4,6 +4,8 @@ theme: default
 class: invert
 # paginate: true
 
+
+
 footer: "@gitstua - September 2023"
 html: true
 allowlocalfiles: true
@@ -17,7 +19,6 @@ backgroundSize: 40px;
 
 
 style: |
-  font-family: 'Hubot Sans';
   section {
     font-family: 'Hubot Sans';
     color: #fff;
@@ -120,6 +121,40 @@ style: |
     border-right: 3px solid pink;
     border-image: linear-gradient(to bottom, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%) 10;
   }
+
+  .new-list{
+    align-items: center;
+
+  }
+
+  .new-list h2{
+    padding: 15px;
+    border: 2px solid white;
+    font-family: 'Roboto mono', sans-serif;
+    font-weight: 100;
+    border-radius: 10px;
+    font-size: 1em;    
+    float: left;
+    margin-right: 1rem;
+    margin-left: 20px;
+    width: 8em;
+    text-align: center;
+    border-radius: 35px;
+
+  }
+
+  .new-list ul{
+    padding: 0;
+    padding-top: 12px;
+    list-style: none;
+    margin: 0;
+    max-width: 60%;
+    float: left;
+    margin-right: 20px;
+    padding-right: 20px;
+  }
+
+
 ---
 
 # Actions Runner Controller Demo
@@ -162,6 +197,24 @@ _footer: ""
 - Runner groups
 
   </div>
+
+---
+
+<div class='new-list'>
+
+# AGENDA 
+
+## testing123
+- world hello world hello world hello world hello world hello world hello world h- hello
+- world
+
+## H2
+- a 
+- d
+- s
+
+
+</div>
 
 ---
 
