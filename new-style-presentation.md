@@ -59,17 +59,12 @@ style: |
     font-size: 0.9em;
     margin: 0;
     padding: 15px 0 10px 84px;
-    list-style: none;
   }
 
   li {
     margin: 0;
     padding: 20px 0 20px 84px;
     list-style: none;
-    /* background-image: url("./assets/circle2.png");
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 50px; */
   }
 
   .gradient-pink-to-green {
@@ -128,7 +123,7 @@ style: |
   }
 
   .new-list h2{
-    padding: 15px;
+    padding: 8px;
     border: 2px solid white;
     font-family: 'Roboto mono', sans-serif;
     text-decoration: normal;
@@ -146,7 +141,8 @@ style: |
 
   .new-list ul{
     padding: 0;
-    padding-top: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     list-style: none;
     margin: 0;
     max-width: 60%;
