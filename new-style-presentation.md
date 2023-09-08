@@ -19,11 +19,12 @@ backgroundSize: 40px;
 
 
 style: |
-  section {
-    font-family: 'Hubot Sans';
-    color: #fff;
-    src : url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+  @import url('https://fonts.cdnfonts.com/css/roboto-mono');
+  @import url('https://fonts.cdnfonts.com/css/inter');
 
+  section {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
   }
   footer {
     height: 20px;
@@ -104,7 +105,6 @@ style: |
   .agenda h1{
     padding: 15px;
     border: 2px solid white;
-    font-family: 'Inter', sans-serif;
     font-weight: 100;
     /* make corners rounded */
     border-radius: 10px;
@@ -131,7 +131,8 @@ style: |
     padding: 15px;
     border: 2px solid white;
     font-family: 'Roboto mono', sans-serif;
-    font-weight: 100;
+    text-decoration: normal;
+    font-weight: normal;
     border-radius: 10px;
     font-size: 1em;    
     float: left;
