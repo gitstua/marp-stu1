@@ -25,7 +25,9 @@ style: |
   section {
     font-family: 'Inter', sans-serif;
     color: #fff;
+    font-color: #fff;
   }
+
   footer {
     height: 20px;
     font-family: 'Arial';
@@ -153,30 +155,24 @@ style: |
 
 
 ---
+<!-- hide footer in marp -->
+<!-- _footer: "" -->
 
 # Actions Runner Controller Demo
 
-![bg right](https://octodex.github.com/images/total-eclipse-of-the-octocat.jpg)
+![bg](./2023-GitHub-PresentationTemplate.png)
+
+
+<!-- ![bg right](https://octodex.github.com/images/total-eclipse-of-the-octocat.jpg) -->
 
 <div class="center-hubber">
 
 ![hubber gitstua](https://avatars.githubusercontent.com/gitstua?size=60) <span>@gitstua</span>
 </div>
 
-<!-- 
-PREP
-1. Create a new codespace for https://github.com/gitstua-labs/ARCv2Demo/blob/main/README.md
-2. Ensure that there is a PAT TOKEN stored as a secret APP_PRIVATE_KEY available to the codespace
-
- -->
-
 ---
-
 <!-- hide footer in marp -->
-<!-- This next line removes the footer to fit the content we are using -->
-<!-- 
-_footer: ""
--->
+<!-- _footer: "" -->
 
 
 <div class='agenda'>
