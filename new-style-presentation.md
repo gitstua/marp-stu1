@@ -19,7 +19,7 @@ backgroundSize: 40px;
 
 
 style: |
-  @import url('https://fonts.cdnfonts.com/css/roboto-mono');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@100;400&display=swap');
   @import url('https://fonts.cdnfonts.com/css/inter');
 
   section {
