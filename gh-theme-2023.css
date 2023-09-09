@@ -1,0 +1,137 @@
+/* gh-theme-2023.css */
+/* @theme gh-theme-2023 */
+
+@import 'default';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@100;400&display=swap');
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+section {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+}
+
+footer {
+  height: 3px;
+  font-size: 20;
+  left: -20px;
+  width: 102%;
+  background-color: 1px solid pink;
+  background: linear-gradient(to right, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%);;
+  
+} 
+
+img[alt~="hubber"] {
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 1.5px solid #6e40c9;
+}
+
+.center-hubber > p {
+  display: flex;
+  align-items: center;
+}
+
+.center-hubber > p {
+  margin-top: 30px;
+}
+
+.agenda{
+  display: grid;
+  grid-template-columns:  auto minmax(0, 1fr);
+  gap: 1rem;
+}
+.agenda li {
+  font-size: 0.9em;
+  margin: 0;
+  padding: 15px 0 10px 84px;
+}
+
+li {
+  margin: 0;
+  padding: 20px 0 20px 84px;
+  list-style: none;
+}
+
+.gradient-pink-to-green {
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%);
+  border-radius: .8em;
+}
+
+.gradient-pink-to-green-short {
+  margin-top: 3px;
+  width: 45%;
+  height: 0.5px;
+  background: linear-gradient(to right, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%);
+  opacity: 0.5;
+}
+
+h1, h2 {
+ border-bottom: 3px solid pink;
+ border-image: linear-gradient(to right, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%) 10;
+}
+
+.columns {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.agenda h1, .columns h1 {
+  border: none;
+}
+
+.agenda h1{
+  padding: 15px;
+  border: 2px solid white;
+  font-weight: 100;
+  border-radius: 10px;
+  font-size: 1.2em;
+  /* margin-top: 140px; */
+  
+}
+
+.agenda > div:first-child {
+  border-right: 3px solid pink;
+  border-image: linear-gradient(to bottom, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%) 10;
+  padding-right: 4rem;
+}
+.agenda > div:first-child, .columns > div:first-child {
+  border-right: 3px solid pink;
+  border-image: linear-gradient(to bottom, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%) 10;
+}
+
+.new-list{
+  align-items: center;
+}
+
+.new-list h2{
+  padding: 8px;
+  border: 2px solid white;
+  font-family: 'Roboto mono', sans-serif;
+  text-decoration: normal;
+  font-weight: normal;
+  border-radius: 10px;
+  font-size: 1em;    
+  float: left;
+  margin-right: 1rem;
+  margin-left: 20px;
+  width: 8em;
+  text-align: center;
+  border-radius: 35px;
+
+}
+
+.new-list ul{
+  padding: 0;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  list-style: none;
+  margin: 0;
+  max-width: 70%;
+  float: left;
+  margin-right: 5px;
+  padding-right: 20px;
+}

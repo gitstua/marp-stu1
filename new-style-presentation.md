@@ -1,171 +1,16 @@
 ---
 marp: true
-theme: default
+theme: gh-theme-2023
 class: invert
 # paginate: true
-
-
+footer: " "
 
 html: true
 allowlocalfiles: true
-
-# A hubber image alt text must contain the text hubber to get the style which makes it a circle from the avatar
-
-
-
-style: |
-  @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@100;400&display=swap');
-  @import url('https://fonts.cdnfonts.com/css/inter');
-
-  section {
-    font-family: 'Inter', sans-serif;
-    color: #fff;
-    font-color: #fff;
-  }
-
-  zzzfooter {
-    height: 20px;
-    font-family: 'Arial';
-    width:90%;
-    font-family: 'Roboto Mono';
-
-    border-top: 1px linear-gradient(to right, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%);;
-  } 
-  
-  footer {
-    background-color: 1px solid pink;
-    background: rgb(67,67,67);
-    background: linear-gradient(0deg, rgba(67,67,67,1) 0%, rgba(255,255,255,1) 55%);
-  }
-
-
-  img[alt~="hubber"] {
-    border-radius: 50%;
-    margin-right: 20px;
-    border: 1.5px solid #6e40c9;
-  }
-
-  .center-hubber > p {
-    display: flex;
-    align-items: center;
-  }
-  
-  .center-hubber > p {
-    margin-top: 30px;
-  }
-
-  .agenda{
-    display: grid;
-    grid-template-columns:  auto minmax(0, 1fr);
-    gap: 1rem;
-  }
-  .agenda li {
-    font-size: 0.9em;
-    margin: 0;
-    padding: 15px 0 10px 84px;
-  }
-
-  li {
-    margin: 0;
-    padding: 20px 0 20px 84px;
-    list-style: none;
-  }
-
-  .gradient-pink-to-green {
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(to right, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%);
-    border-radius: .8em;
-  }
-
-  .gradient-pink-to-green-short {
-    margin-top: 3px;
-    width: 45%;
-    height: 0.5px;
-    background: linear-gradient(to right, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%);
-    opacity: 0.5;
-  }
-
-  h1, h2 {
-   border-bottom: 3px solid pink;
-   border-image: linear-gradient(to right, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%) 10;
-  }
-
-  .columns {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 1rem;
-  }
-
-  .agenda h1, .columns h1 {
-    border: none;
-  }
-
-  .agenda h1{
-    padding: 15px;
-    border: 2px solid white;
-    font-weight: 100;
-    /* make corners rounded */
-    border-radius: 10px;
-    font-size: 1em;
-    margin-top: 140px;
-  }
-
-  .agenda > div:first-child {
-    border-right: 3px solid pink;
-    border-image: linear-gradient(to bottom, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%) 10;
-    padding-right: 4rem;
-  }
-  .agenda > div:first-child, .columns > div:first-child {
-    border-right: 3px solid pink;
-    border-image: linear-gradient(to bottom, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%) 10;
-  }
-
-  .new-list{
-    align-items: center;
-
-  }
-
-  .new-list h2{
-    padding: 8px;
-    border: 2px solid white;
-    font-family: 'Roboto mono', sans-serif;
-    text-decoration: normal;
-    font-weight: normal;
-    border-radius: 10px;
-    font-size: 1em;    
-    float: left;
-    margin-right: 1rem;
-    margin-left: 20px;
-    width: 8em;
-    text-align: center;
-    border-radius: 35px;
-
-  }
-
-  .new-list ul{
-    padding: 0;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    list-style: none;
-    margin: 0;
-    max-width: 60%;
-    float: left;
-    margin-right: 20px;
-    padding-right: 20px;
-  }
-
-
 ---
-<!-- hide footer in marp -->
-<!-- _footer: "" -->
-
-# Actions Runner Controller Demo
+# Example presentation 2023
 
 ![bg](./2023-GitHub-PresentationTemplate.png)
-
-
-<!-- ![bg right](https://octodex.github.com/images/total-eclipse-of-the-octocat.jpg) -->
 
 <div class="center-hubber">
 
@@ -173,25 +18,19 @@ style: |
 </div>
 
 ---
-<!-- hide footer in marp -->
-<!-- _footer: "" -->
-
-
 <div class='agenda'>
+<div>
 
-  <div>
+# AGENDA
+</div>
 
-  # AGENDA
-  </div>
+<div>
 
-  <div>
-
-- What is ARC?
-- ARC as part of Actions in the demo of the long text line running over
+- new list wrapping h1 h2 for nice layout
+- another example showing how to use the columns div
 - Demo - deploying ARC
 - Runner groups
-
-  </div>
+</div>
 
 ---
 
@@ -200,7 +39,8 @@ style: |
 # Example of new-list div wrapping h1 h2 
 
 ## testing123
-- world hello world hello world hello world hello world hello world hello world h- hello
+- world hello world hello world hello world hello world hello world hello world h
+- hello
 - world
 
 ## H2
@@ -208,71 +48,51 @@ style: |
 - d
 - s
 
-
 </div>
 
 ---
 
 <div class='columns'>
-
   <div>
 
-  # What is ARC?
+  # Example of columns div layout in the deck
   </div>
 
   <div>
 
-  - the dog and the cat
-  - b 
-  - c
-  - actions ghas runners repos and options
-  - actions runner controller
+  - bullet point 1
+  - bullet point 2 is a really long one showing the wrapping
+  - bullet point 3
+  - bullet point 4
+  - bullet point 5
+  - bullet point 6
 
   </div>
-
 </div>
 
 ---
 
-# ARC as part of Actions
+# Standard h1 title with some bullet points
 <!-- <div class="gradient-pink-to-green-"></div>
 <div class="gradient-pink-to-green-short"></div> -->
 
-- a
-- b
-- c
+- bullet 1
+- bullet 2 is a really long one showing the wrapping of text over another line
+- bullet 3
+- bullet 4
+- bullet 5
 
 ---
 
-# Demo - deploying ARC
-<!-- 
-- Open codespace
-- show scaleset controller deployment
-- show scaleset
- -->
+# standard h1
+## standard h2
+### standard h3
 
 
 ---
 
-# Runner groups
-
----
-
-## Recap - Actions runners can be:
-
-- Standard GitHub runners
-- Larger GitHub hosted runners
-- Running on a VM
-- Running in Docker
-- Running in Kubernetes
-
----
-
-## Recap 2 - Actions Runner Controller
-- A community project adopted under GitHub.com/actions/
-- Elastic - a way to have runners which are created when jobs need them
-- Run on your own hardware or in a cloud provider
-
-
-## Resources
-Some helpful resources are located at [gh.io/ARC-Resources](https://gh.io/ARC-Resources)
+# Resources
+- some text here
+- to the right is an example of an imagexs
+- 
+![bg right 100%](image-1.png)
