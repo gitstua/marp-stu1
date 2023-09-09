@@ -36,16 +36,6 @@ img[alt~="hubber"] {
   margin-top: 30px;
 }
 
-.agenda{
-  display: grid;
-  grid-template-columns:  auto minmax(0, 1fr);
-  gap: 1rem;
-}
-.agenda li {
-  font-size: 0.9em;
-  margin: 0;
-  padding: 15px 0 10px 84px;
-}
 
 li {
   margin: 0;
@@ -83,26 +73,6 @@ h1, h2 {
   border: none;
 }
 
-.agenda h1{
-  padding: 15px;
-  border: 2px solid white;
-  font-weight: 100;
-  border-radius: 10px;
-  font-size: 1.2em;
-  /* margin-top: 140px; */
-  
-}
-
-.agenda > div:first-child {
-  border-right: 3px solid pink;
-  border-image: linear-gradient(to bottom, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%) 10;
-  padding-right: 4rem;
-}
-.agenda > div:first-child, .columns > div:first-child {
-  border-right: 3px solid pink;
-  border-image: linear-gradient(to bottom, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%) 10;
-}
-
 .new-list{
   align-items: center;
 }
@@ -134,4 +104,35 @@ h1, h2 {
   float: left;
   margin-right: 5px;
   padding-right: 20px;
+}
+
+.agenda{
+  display: grid;
+  grid-template-columns:  auto minmax(0, 1fr);
+  gap: 1rem;
+}
+.agenda li {
+  font-size: 0.9em;
+  margin: 0;
+  padding: 15px 0 10px 84px;
+}
+
+.agenda h1{
+  padding: 15px;
+  border: 2px solid white;
+  font-weight: 300;
+  border-radius: 10px;
+  font-size: 1.2em;
+  /* margin-top: 140px; */
+  
+}
+
+.agenda > div:first-child {
+  border-right: 3px solid pink;
+  border-image: linear-gradient(to bottom, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%) 10;
+  padding-right: 4rem;
+}
+.agenda > div:first-child, .columns > div:first-child {
+  border-right: 3px solid pink;
+  border-image: linear-gradient(to bottom, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%) 10;
 }
