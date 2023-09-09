@@ -22,18 +22,24 @@ footer {
 } 
 
 img[alt~="hubber"] {
-  border-radius: 50%;
+  border-radius: 20%;
   margin-right: 20px;
-  border: 1.5px solid #6e40c9;
+  border: 1.5px solid white;
 }
 
 .center-hubber > p {
-  display: flex;
+  display: inline-block;
   align-items: center;
 }
+.hubber-title {
+  font-size: 1em;
+  font-weight: 300;
+  color: gray
+}
 
-.center-hubber > p {
+.center-hubber{
   margin-top: 30px;
+  border: 0 !important;
 }
 
 

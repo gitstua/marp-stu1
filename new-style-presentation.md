@@ -8,13 +8,35 @@ footer: " "
 html: true
 allowlocalfiles: true
 ---
+<!-- _footer: "" -->
+
 # Example presentation 2023
 
 ![bg](./2023-GitHub-PresentationTemplate.png)
 
+<div class="columns">
+
 <div class="center-hubber">
 
-![hubber gitstua](https://avatars.githubusercontent.com/gitstua?size=60) <span>@gitstua</span>
+![hubber gitstua](https://avatars.githubusercontent.com/gitstua?size=60) 
+
+<span>Stu Eggerton</span> 
+<span class="hubber-title">Customer Success Architect</span>
+</div>
+<div class="center-hubber">
+
+![hubber gitstua](https://avatars.githubusercontent.com/octocat?size=60) 
+
+<span>Monalisa</span> 
+<span class="hubber-title">Octocat</span>
+</div>
+<div class="center-hubber">
+
+![hubber gitstua](https://avatars.githubusercontent.com/octocat?size=60) 
+
+<span>Monalisa</span> 
+<span class="hubber-title">Octocat</span>
+</div>
 </div>
 
 ---
@@ -90,6 +112,7 @@ allowlocalfiles: true
 
 
 ---
+<!-- _footer: "" -->
 
 # Resources
 - some text here
