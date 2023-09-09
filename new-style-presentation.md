@@ -11,31 +11,24 @@ allowlocalfiles: true
 <!-- _footer: "" -->
 
 # Example presentation 2023
-
 ![bg](./2023-GitHub-PresentationTemplate.png)
 
 <div class="columns">
 
 <div class="center-hubber">
 
-![hubber gitstua](https://avatars.githubusercontent.com/gitstua?size=60) 
+  ![hubber gitstua](https://avatars.githubusercontent.com/gitstua?size=60) 
 
-<span>Stu Eggerton</span> 
-<span class="hubber-title">Customer Success Architect</span>
+  <span>Stu Eggerton</span> 
+  <span class="hubber-title">Customer Success Architect</span>
 </div>
+
 <div class="center-hubber">
 
-![hubber gitstua](https://avatars.githubusercontent.com/octocat?size=60) 
+  ![hubber gitstua](https://avatars.githubusercontent.com/monatheoctocat?size=60) 
 
-<span>Monalisa</span> 
-<span class="hubber-title">Octocat</span>
-</div>
-<div class="center-hubber">
-
-![hubber gitstua](https://avatars.githubusercontent.com/octocat?size=60) 
-
-<span>Monalisa</span> 
-<span class="hubber-title">Octocat</span>
+  <span>Mona Lisa</span> 
+  <span class="hubber-title">Octocat</span>
 </div>
 </div>
 
@@ -58,17 +51,17 @@ allowlocalfiles: true
 
 <div class='new-list'>
 
-# Example of new-list div wrapping h1 h2 
+  # Example of new-list div wrapping h1 h2 
 
-## testing123
-- world hello world hello world hello world hello world hello world hello world h
-- hello
-- world
+  ## testing123
+  - world hello world hello world hello world hello world hello world hello world h
+  - hello
+  - world
 
-## H2
-- a 
-- d
-- s
+  ## H2
+  - a 
+  - d
+  - s
 
 </div>
 
