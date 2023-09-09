@@ -6,13 +6,8 @@ class: invert
 
 
 
-footer: "@gitstua - September 2023"
 html: true
 allowlocalfiles: true
-
-backgroundImage: url(./assets/github-mark-white.svg);
-backgroundPosition: bottom 15px right 15px;
-backgroundSize: 40px;
 
 # A hubber image alt text must contain the text hubber to get the style which makes it a circle from the avatar
 
@@ -28,7 +23,7 @@ style: |
     font-color: #fff;
   }
 
-  footer {
+  zzzfooter {
     height: 20px;
     font-family: 'Arial';
     width:90%;
@@ -37,6 +32,13 @@ style: |
     border-top: 1px linear-gradient(to right, #FE7A73 0%, #EB7BC6 25%,#44ADD1 75%, #54D165 100%);;
   } 
   
+  footer {
+    background-color: 1px solid pink;
+    background: rgb(67,67,67);
+    background: linear-gradient(0deg, rgba(67,67,67,1) 0%, rgba(255,255,255,1) 55%);
+  }
+
+
   img[alt~="hubber"] {
     border-radius: 50%;
     margin-right: 20px;
