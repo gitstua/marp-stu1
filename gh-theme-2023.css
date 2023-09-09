@@ -50,7 +50,11 @@
 
 section {
   font-family: 'Inter', sans-serif;
-  color: #fff;
+  color: #000; 
+}
+
+section.invert {
+    color: #fff;
 }
 
 footer {
