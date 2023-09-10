@@ -17,3 +17,4 @@ You can export the Marp File to PowerPoint or a PDF file as required
 ## Support of these posts, people and resources
 - https://chris-ayers.com/2023/03/31/customizing-marp
 - https://marp.app/
+- https://gwfh.mranftl.com/fonts
